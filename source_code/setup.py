@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(name='easy-detabase',
                  version='1.0',
-                 description='easy-detabase interact with deta base service',
+                 description='easy-detabase interact with deta base service in easy way',
                  url='https://github.com/EmaGianna/easy-detabase',
                  author='Emanuel Giannattasio',
                  install_requires=['deta','pandas'],

@@ -21,7 +21,7 @@ Currently easy-detabase have three operations/functions:
         
             deta = Deta("project key")
             db = deta.Base("sample_db")
-            bulk_insert_to_deta('/mnt/e/trabajo/sysberisso/Proyectos/Streamlit_Deta/Files/deta_data_v4.csv', ';',db)
+            bulk_insert_to_deta('/mnt/Files/deta_data_v4.csv', ';',db)
     ```
 
 * ### deta_table_to_dataframe

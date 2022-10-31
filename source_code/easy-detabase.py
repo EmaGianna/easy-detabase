@@ -1,4 +1,4 @@
-from deta import Deta
+#from deta import Deta
 import pandas as pd
 
 

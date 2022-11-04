@@ -16,12 +16,16 @@ Currently easy-detabase have three operations/functions:
     ```python
         from easy-detabase import bulk_insert_to_deta
         from deta import Deta
+        import pandas as pd 
         
         if __name__ == '__main__':
         
             deta = Deta("project key")
             db = deta.Base("sample_db")
-            bulk_insert_to_deta('/mnt/Files/deta_data_v4.csv', ';',db)
+            csv_path_file = './files/countries.csv'
+            separator = ';'
+            df_deta = pd.read_csv(csv_path_file, sep = separator)
+            bulk_insert_to_deta(df_deta, db, 1)
     ```
 
 * ### deta_table_to_dataframe

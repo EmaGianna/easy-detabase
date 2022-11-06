@@ -3,6 +3,16 @@
 Easydetabase offer a simple way to interact with Deta Base Service.
 This library was built on top of deta official library
 
+
+
+## Installation
+
+Run pip installation
+
+```shell
+    pip install easydetabase
+```
+
 ## Functionalities
 
 Currently easy-detabase have three operations/functions:

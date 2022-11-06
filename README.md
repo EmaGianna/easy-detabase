@@ -1,6 +1,6 @@
-# easy-detabase
+# easydetabase
 
-Easy-detabase offer a simple way to interact with Deta Base Service.
+Easydetabase offer a simple way to interact with Deta Base Service.
 This library was built on top of deta official library
 
 ## Functionalities
@@ -14,7 +14,7 @@ Currently easy-detabase have three operations/functions:
     #### Usage Mode:
 
     ```python
-        from easy-detabase import bulk_insert_to_deta
+        from easydetabase import bulk_insert_to_deta
         from deta import Deta
         import pandas as pd 
         
@@ -55,7 +55,7 @@ Currently easy-detabase have three operations/functions:
     #### Usage Mode
 
     ```python
-        from easy-detabase import deta_table_to_dataframe
+        from easydetabase import deta_table_to_dataframe
         from deta import Deta
         
         if __name__ == '__main__':
@@ -85,7 +85,7 @@ Currently easy-detabase have three operations/functions:
 
     #### Usage Mode
     ```python
-        from easy-detabase import truncate_deta_table
+        from easydetabase import truncate_deta_table
         from deta import Deta
 
         if __name__ == '__main__':
